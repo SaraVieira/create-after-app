@@ -1,4 +1,5 @@
 # Create After App
+[![Build Status](https://travis-ci.org/SaraVieira/create-after-app.svg?branch=master)](https://travis-ci.org/SaraVieira/create-after-app)
 
 ```bash
 Usage
