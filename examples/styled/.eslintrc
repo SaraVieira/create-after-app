@@ -1,8 +1,0 @@
-{
-	"parser": "babel-eslint",
-	"extends": ["plugin:react/recommended", "standard"],
-	"rules": {
-		"react/prop-types": 0,
-		"react/display-name": 0
-	}
-}

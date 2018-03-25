@@ -21,8 +21,8 @@ const items = [{
   label: 'Basic + Styled Components SSR',
   value: 'styled'
 }, {
-  label: 'Third',
-  value: 'third'
+  label: 'Apollo Starter',
+  value: 'apollo'
 }]
 
 class SearchQuery extends Component {
