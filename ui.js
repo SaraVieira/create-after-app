@@ -1,4 +1,5 @@
 const { Component, h, Text } = require('ink')
+const path = require("path");
 const TextInput = require('ink-text-input')
 const Spinner = require('ink-spinner')
 const SelectInput = require('ink-select-input')
@@ -37,7 +38,7 @@ class CreateAfterApp extends Component {
 			loading: 'Getting Files'
 		})
 
-		await copydir.sync(`./examples/${item.value}/`, `${current}/${dir}`)
+		await copydir.sync(`${path.resolve(__dirname)}/examples/${item.value}/`, `${current}/${dir}`)
 
 		this.setState({
 			loading: 'Installing dependencies'
