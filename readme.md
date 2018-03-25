@@ -3,10 +3,11 @@
 
 ```bash
 Usage
-    $ create-after-app [input]
+    $ create-after-app [input] [--flags]
 
-Options
+Flags:
     --yarn  Use yarn
+    --git  Init git
 
 Examples
     $ create-after-app src
